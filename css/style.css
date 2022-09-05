@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-page{
+    height: 100vh;
+    background-image: url(../images/download\ \(1\).jfif);
+    background-size: 100% 100%;
+}
+
+.son{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+
+/* start section 3 */
+.sec-3{
+    height: 50vh;
+    /* خاصية تحويل الصندوق لشبكي */
+    display: grid;
+    /* ختصية تقطيع الاب لاعمدة */
+    grid-template-columns: repeat( 2 , 1fr);
+    /* خاصية تقطيع الاب لاسطر */
+    grid-template-rows: repeat(4 , 1fr);
+    padding: 40px 20px;
+    grid-gap: 10px;
+    background-color: #4c4999;
+    color: white;
+}
+
+.red{
+    /* background-color: red; */
+    text-align: center;
+}
+
+.blue{
+    /* background-color: blue; */
+    /* الامتداد ك اسطر */
+    grid-row: span 4;
+}
+
+.blue img{
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.9; */
+}
+
+.green{
+    text-align: center;
+    /* background-color: green; */
+    /* الامتداد ك اعمدة */
+    grid-row: span 3;
+}
+
+
+/* end section 3 */
+
+
+
+
+
+
+
+
+
+
+
